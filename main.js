@@ -15,4 +15,4 @@ hexo.extend.filter.register('before_post_render', data => {
   let hrefText = `${beforeText} [${href}](${href}) ${afterText}`;
 
   data.content += `\n\n${hrefText}`;
-},20);
+}, 20);
